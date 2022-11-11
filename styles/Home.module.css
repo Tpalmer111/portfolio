@@ -1,5 +1,24 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: silver;
+  font-size: xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Helvetica;
+}
+
+.navigation {
+  font-size: xx-large;
+  color: darkgrey;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.face {
+  border-radius: 50%;
 }
 
 .main {
@@ -84,6 +103,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
+
 
 .card:hover,
 .card:focus,

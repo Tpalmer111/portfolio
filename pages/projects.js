@@ -1,4 +1,3 @@
-// import styles from '../styles/About.module.css'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image' 
 export default function About() {
@@ -12,8 +11,8 @@ export default function About() {
                 height={300}
             />
 
-            <h1>About me</h1>
-            <p>Fill in the about me content here. blah blah blah</p>
+            <h1>Projects</h1>
+            <p>Fill in project information here. project 1 - project 2 - project 3</p>
 
         </div>
     )
