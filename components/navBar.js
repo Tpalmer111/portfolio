@@ -6,12 +6,14 @@ export default function NavBar() {
     return(
         
             <nav>
-                <Image
-                    src='/denver_banner.jpeg'
-                    alt='denver_banner'
-                    width={1500}
-                    height={300}
-                />
+                <div className={styles.denver}>
+                    <Image
+                        src='/denver_banner.jpeg'
+                        alt='denver_banner'
+                        width={1200}
+                        height={250}
+                    />
+                </div>
                 <div className={styles.navigation}>
                     <Link href='/'>Home</Link>
                     <Link href='/about'>About Me</Link>

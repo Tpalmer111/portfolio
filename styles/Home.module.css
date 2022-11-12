@@ -1,12 +1,12 @@
 .container {
-  padding: 0 1rem;
+  padding: 0 .5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: silver;
-  font-size: xx-large;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Helvetica;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Helvetica;
 }
 
 .navigation {
@@ -14,11 +14,23 @@
   color: darkgrey;
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .face {
   border-radius: 50%;
+}
+
+.denver {
+  display: flex;
+  justify-content: center;
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main {
@@ -136,13 +148,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
