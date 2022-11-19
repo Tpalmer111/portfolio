@@ -13,8 +13,8 @@ export default function About() {
             />
 
             <h1>About me</h1>
-            <p>Fill in the about me content here. blah blah blah</p>
-
+            <p>blah bLAH BLAH!</p>
+            <p>I am a father, snowboarder, poker player, writer, amateur philosopher, and software engineer.</p>
         </div>
     )
 }
