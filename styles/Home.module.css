@@ -27,11 +27,11 @@
 
 }
 
-.contact {
+/* .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100em;
+  width: 90em;
   display: flex;
   flex-direction: column;
   background-color: rgb(155, 155, 155);
@@ -42,10 +42,72 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(55, 55, 55);
   padding: 2ch;
+} */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(155, 155, 155);
+  border-radius: 1ch;
+  border: 2px;
+  border: solid rgb(55, 55, 55) 2px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(55, 55, 55);
+  padding: 2ch;
+  width: 90%;
 }
 
 
 .project {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(155, 155, 155);
+  border-radius: 1ch;
+  border: 2px;
+  border: solid rgb(55, 55, 55) 2px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(55, 55, 55);
+  padding: 2ch;
+  width: 90%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(155, 155, 155);
+  border-radius: 1ch;
+  border: 2px;
+  border: solid rgb(55, 55, 55) 2px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(55, 55, 55);
+  padding: 2ch;
+  width: 90%;
+  /* display: flex;
+  flex-direction: column;
+  background-color: rgb(155, 155, 155);
+  border-radius: 1ch;
+  border: 2px;
+  border: solid rgb(55, 55, 55) 2px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: 100;
+  color: rgb(55, 55, 55);
+  padding: 2ch;
+  width: 90%; */
+
+}
+
+.email {
   display: flex;
   flex-direction: column;
   background-color: rgb(155, 155, 155);
@@ -173,6 +235,14 @@
     width: 100%;
     flex-direction: column;
   }
+  .navigation {
+    font-size: medium;
+    padding: 1ch 0 1ch 0;
+  }
+  .name {
+    font-size: large;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {

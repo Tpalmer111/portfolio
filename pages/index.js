@@ -19,8 +19,27 @@ export default function Home() {
             height={300}
         />
       </div>
-      <h1 >Timothy A Palmer</h1>
-      <p>Full-stack Developer</p>
+      <div className={styles.name}>
+
+        <h1 >Timothy A Palmer</h1>
+      
+        <p>Full-stack Developer</p>
+      </div>
+      <div className={styles.skills}>
+        <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javaScript</li>
+            <li>SQL</li>
+            <li>React</li>
+            <li>mongoose</li>
+            <li>MongoDB</li>
+            <li>React-Native</li>
+            <li>django</li>
+            <li>github</li>
+          </ul>
+      </div>
     </div>
   )
 }

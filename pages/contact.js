@@ -11,14 +11,16 @@ export default function About() {
                 width={300}
                 height={300}
             />
+            <div className={styles.name}>
                 <h1>Contact Me</h1>
+            </div>
             <div className={styles.contact}>
                 <Link href="https://github.com/Tpalmer111">Github</Link>
             </div>
             <div className={styles.contact}>
                 <Link href="https://www.linkedin.com/in/tim-palmer111/">linkedIn</Link>
             </div>
-            <div className={styles.contact}>
+            <div className={styles.email}>
                 <h4>mr.palmer111@gmail.com</h4>
             </div>
         </div>

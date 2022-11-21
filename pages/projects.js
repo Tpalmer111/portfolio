@@ -11,7 +11,9 @@ export default function About() {
                 width={300}
                 height={300}
             />
-            <h1>Code Projects</h1>
+            <div className={styles.name}>
+                <h1>Code Projects</h1>
+            </div>    
             <div className={styles.project}>
                 <Link  href="https://tpalmer111.github.io/mini-mandala/">Mini-mandala</Link>
                 <p>Mini-mandala is an adaptation of a awesome card game called Mandala. The game is built with vanilla javaScript utilizing DOM manipulation. A player collects points against a cpu player. There are three rounds of play and then a winner is declared.</p>

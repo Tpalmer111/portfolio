@@ -11,8 +11,9 @@ export default function About() {
                 width={300}
                 height={300}
             />
-
-            <h1>About me</h1>
+            <div className={styles.name}>
+                <h1>About me</h1>
+            </div>
             <p>blah bLAH BLAH!</p>
             <p>I am a father, snowboarder, poker player, writer, amateur philosopher, and software engineer.</p>
         </div>
