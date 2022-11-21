@@ -29,7 +29,7 @@ export default function About() {
             </div>
             <div className={styles.project}>
                 <Link href="https://github.com/Tpalmer111/tournament_manager">Tournament Manager (github)</Link>
-                <p>The objective for project four was to learn and use a new technology. Using React-Native, tournament manager allows a user to manage a poker tournament efficiently and effectively. There are settings for every aspect of a texas hold'em tournament. </p>
+                <p>The objective for project four was to learn and use a new technology. Using React-Native, tournament manager allows a user to manage a poker tournament efficiently and effectively. There are settings for every aspect of a texas holdem tournament. </p>
             </div>
         </div>
     )
