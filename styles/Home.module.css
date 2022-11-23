@@ -44,9 +44,27 @@
 }
 
 .skills {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+  list-style-type: none ;
+  font-size: 90%;
+}
+
+.html {
+  padding: 0px 1px;
+  margin: 0 8px;
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.list {
+  content: '';
+  padding: 0px 1px;
+  margin: 0 8px;
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+  align-items: center;
 }
 
 .main {
@@ -170,6 +188,10 @@
   .name {
     font-size: large;
   }
+
+  /* .list {
+    font-size: smaller;
+  } */
 
 }
 

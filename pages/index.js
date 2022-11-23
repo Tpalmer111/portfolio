@@ -29,16 +29,16 @@ export default function Home() {
         <h3>Skills</h3>
         <div className={styles.skills}>
           <ul className={styles.skills}>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>React</li>
-            <li>Mongoose</li>
-            <li>MongoDB</li>
-            <li>React Native</li>
-            <li>Django</li>
-            <li>GitHub</li>
+            <li className={styles.html}>HTML</li>
+            <li className={styles.list}>CSS</li>
+            <li className={styles.list}>JavaScript</li>
+            <li className={styles.list}>SQL</li>
+            <li className={styles.list}>React</li>
+            <li className={styles.list}>Mongoose</li>
+            <li className={styles.list}>MongoDB</li>
+            <li className={styles.list}>React Native</li>
+            <li className={styles.list}>Django</li>
+            <li className={styles.list}>GitHub</li>
           </ul>
         </div>
       </div>
