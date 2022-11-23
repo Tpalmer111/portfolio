@@ -20,19 +20,19 @@ export default function About() {
                 </div>
                 <p>Mini-mandala is an adaptation of a awesome card game called Mandala. The game is built with vanilla javaScript utilizing DOM manipulation. A player collects points against a cpu player. There are three rounds of play and then a winner is declared.</p>
             </div>
-            <div className={styles.project}>
+            <div className={styles.outer}>
                 <div className={styles.card}>
                     <Link href="https://reimagined-waddle-tpalmer111.koyeb.app/">Record-collector</Link>
                 </div>
                 <p>The objective for project two was to create a full stack react application using SQL, React, and utilizes the LastFM api.  Users can use the app to search and access data for artists and albums. If a user registers for an account they can save a catalog of their entire record collection.</p>
             </div>
-            <div className={styles.project}>
+            <div className={styles.outer}>
                 <div className={styles.card}>
                     <Link href="https://magnificent-mousse-4e7cf9.netlify.app/">Cafe Finder</Link>
                 </div>
                 <p>Project three was a group project and the objective was to build a MERNstack application with a divided server and client, utilizing React, mongoose, and MongoDB. Cafe-finder is a specialized search engine that utilizes the Yelp api to render search results. Once a user registers for an account they can save their favorite cafes and comment on their experiences.</p>
             </div>
-            <div className={styles.project}>
+            <div className={styles.outer}>
                 <div className={styles.card}>
                     <Link href="https://github.com/Tpalmer111/tournament_manager">Tournament Manager (github)</Link>
                 </div>
