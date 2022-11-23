@@ -27,24 +27,7 @@
 
 }
 
-/* .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90em;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(155, 155, 155);
-  border-radius: 2ch;
-  border: 2px;
-  border: solid rgb(55, 55, 55) 2px;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(55, 55, 55);
-  padding: 2ch;
-} */
-
-.contact {
+.outer {
   display: flex;
   flex-direction: column;
   background-color: rgb(155, 155, 155);
@@ -59,70 +42,6 @@
   padding: 2ch;
   width: 90%;
 }
-
-
-.project {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(155, 155, 155);
-  border-radius: 1ch;
-  border: 2px;
-  border: solid rgb(55, 55, 55) 2px;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
-  font-weight: 100;
-  color: rgb(55, 55, 55);
-  padding: 2ch;
-  width: 90%;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(155, 155, 155);
-  border-radius: 1ch;
-  border: 2px;
-  border: solid rgb(55, 55, 55) 2px;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
-  font-weight: 100;
-  color: rgb(55, 55, 55);
-  padding: 2ch;
-  width: 90%;
-  /* display: flex;
-  flex-direction: column;
-  background-color: rgb(155, 155, 155);
-  border-radius: 1ch;
-  border: 2px;
-  border: solid rgb(55, 55, 55) 2px;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
-  font-weight: 100;
-  color: rgb(55, 55, 55);
-  padding: 2ch;
-  width: 90%; */
-
-}
-
-.email {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(155, 155, 155);
-  border-radius: 1ch;
-  border: 2px;
-  border: solid rgb(55, 55, 55) 2px;
-  align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: large;
-  font-weight: 100;
-  color: rgb(55, 55, 55);
-  padding: 2ch;
-  width: 90%;
-}
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -195,6 +114,7 @@
 }
 
 .card {
+  display: flex;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -203,7 +123,8 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 75%;
+  justify-content: center;
 }
 
 

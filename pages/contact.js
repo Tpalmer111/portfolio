@@ -14,14 +14,16 @@ export default function About() {
             <div className={styles.name}>
                 <h1>Contact Me</h1>
             </div>
-            <div className={styles.contact}>
-                <Link href="https://github.com/Tpalmer111">Github</Link>
-            </div>
-            <div className={styles.contact}>
-                <Link href="https://www.linkedin.com/in/tim-palmer111/">linkedIn</Link>
-            </div>
-            <div className={styles.email}>
-                <h4>mr.palmer111@gmail.com</h4>
+            <div className={styles.outer}>
+                <div className={styles.card}>
+                    <Link href="https://github.com/Tpalmer111">GitHub</Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="https://www.linkedin.com/in/tim-palmer111/">LinkedIn</Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="https://aemail.com/mwNO">Email</Link>
+                </div>
             </div>
         </div>
     )

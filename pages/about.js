@@ -14,8 +14,15 @@ export default function About() {
             <div className={styles.name}>
                 <h1>About me</h1>
             </div>
-            <p>blah bLAH BLAH!</p>
-            <p>I am a father, snowboarder, poker player, writer, amateur philosopher, and software engineer.</p>
+            <div className={styles.outer}>
+                <div className={styles.card}>
+                    <p>I am a father, snowboarder, poker player, table-top gamer, writer, amateur philosopher, audiophile, and software engineer.</p>
+                </div>
+                <div className={styles.card}>
+                    <p>I love problem solving, strategy, creative expression, and finding adventure. I love discovering new places, new ideas, and new people.</p>
+                </div>
+                <p></p>
+            </div>
         </div>
     )
 }

@@ -25,19 +25,19 @@ export default function Home() {
       
         <p>Full-stack Developer</p>
       </div>
-      <div className={styles.skills}>
+      <div className={styles.outer}>
         <h3>Skills</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>javaScript</li>
+            <li>JavaScript</li>
             <li>SQL</li>
             <li>React</li>
-            <li>mongoose</li>
+            <li>Mongoose</li>
             <li>MongoDB</li>
-            <li>React-Native</li>
-            <li>django</li>
-            <li>github</li>
+            <li>React Native</li>
+            <li>Django</li>
+            <li>GitHub</li>
           </ul>
       </div>
     </div>
