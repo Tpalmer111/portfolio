@@ -30,7 +30,7 @@
 .outer {
   display: flex;
   flex-direction: column;
-  background-color: rgb(155, 155, 155);
+  background: linear-gradient(to bottom right, rgb(155, 155, 155) 0%, rgb(89, 89, 89) 100%);
   border-radius: 1ch;
   border: 2px;
   border: solid rgb(55, 55, 55) 2px;
@@ -42,6 +42,13 @@
   padding: 2ch;
   width: 90%;
 }
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;

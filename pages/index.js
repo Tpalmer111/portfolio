@@ -27,7 +27,8 @@ export default function Home() {
       </div>
       <div className={styles.outer}>
         <h3>Skills</h3>
-          <ul>
+        <div className={styles.skills}>
+          <ul className={styles.skills}>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -39,6 +40,7 @@ export default function Home() {
             <li>Django</li>
             <li>GitHub</li>
           </ul>
+        </div>
       </div>
     </div>
   )
